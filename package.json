@@ -1,0 +1,28 @@
+{
+  "name": "setup-prettier",
+  "version": "1.0.0",
+  "description": "An example of how to setup prettier in a project",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "format": "prettier --write \"**/*.+(js|md|ts|css|sass|less|graphql|yml|yaml|scss|json|vue)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumn2u/setup-prettier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sumn2u/setup-prettier/issues"
+  },
+  "homepage": "https://github.com/sumn2u/setup-prettier#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-prettier": "^2.10.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.15.3"
+  }
+}
